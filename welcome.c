@@ -5,19 +5,18 @@ struct Students{
     char  surName[50];
     int   age;
     float totalMarks;
-}
+};
 
 
 void displayFunction(char printedValue){
-
-    printf("%s" + printedValue);
-
+    printf("%s", printedValue );
 }
+
 
 
 int main(){
 
-    struct Student st1,st2;
+    struct Students st1;
     prtintf("Name of first srudent: ");
     scanf("%s" , st1.name);
 
